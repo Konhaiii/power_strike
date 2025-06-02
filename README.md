@@ -1,3 +1,5 @@
+https://modrinth.com/mod/power-strike-(more-ranged-weapons)
+
 # Power Strike
 A simple fabric mod that adds range weapons powered with E-energy to Minecraft.
 
