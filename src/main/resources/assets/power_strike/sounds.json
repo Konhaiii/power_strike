@@ -1,0 +1,11 @@
+{
+	"laser_rifle_shot": {
+		"sounds": ["power_strike:laser_rifle_shot"]
+	},
+	"blaster_shot": {
+		"sounds": ["power_strike:blaster_shot"]
+	},
+	"laser_projectile_hit": {
+		"sounds": ["power_strike:laser_projectile_hit"]
+	}
+}

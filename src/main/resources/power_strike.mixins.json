@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "konhaiii.power_strike.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "power_strike",
+	"version": "${version}",
+	"name": "Power Strike",
+	"description": "Add energy-powered ranged weapons to Minecraft.",
+	"authors": [
+		"Konhaiii"
+	],
+	"contact": {
+		"homepage": "https://github.com/Konhaiii/power_strike",
+		"sources": "https://github.com/Konhaiii/power_strike",
+		"issues": "https://github.com/Konhaiii/power_strike/issues"
+	},
+	"license": "CC BY-NC 4.0",
+	"icon": "assets/power_strike/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"konhaiii.power_strike.PowerStrike"
+		],
+		"client": [
+			"konhaiii.power_strike.PowerStrikeClient"
+		]
+	},
+	"mixins": [
+		"power_strike.mixins.json",
+		{
+			"config": "power_strike.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

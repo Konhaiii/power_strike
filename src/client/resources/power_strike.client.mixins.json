@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "konhaiii.power_strike.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"item.power_strike.laser_rifle": "Laser Rifle",
+	"item.power_strike.blaster": "Blaster",
+	"itemGroup.power_strike.ps_group": "Power Strike",
+	"tooltip.power_strike.power_charged": "Charged",
+	"tooltip.power_strike.transfer_rate": "Transfer Rate",
+	"tooltip.power_strike.input_rate": "Input Rate",
+	"tooltip.power_strike.output_rate": "Output Rate"
+}
